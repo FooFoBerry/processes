@@ -16,6 +16,12 @@ FooFoBerry
 | feed_engine_proxy/
 ```
 
+Install foreman if you don't have it already
+
+```
+gem install foreman
+```
+
 Then run `foreman start` and all the processes will launch
 
 If you get an error about a port being taken already, run `lsof -i tcp:<port that is taken>` and then go kill that process (`kill -9 <process_id>`).
