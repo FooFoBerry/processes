@@ -34,3 +34,9 @@ To batch update all the repos (`git pull origin master`), from the processes dir
 ```
 ./git_update
 ```
+
+You may need to change permissions on the file.  If so, run:
+
+```
+chmod a+x git_update
+```
