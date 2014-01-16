@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd .. && cd ./feed_engine_auth && git pull origin master
+cd .. && cd ./feed_engine_front_end && git pull origin master
+cd .. && cd ./feed_engine_api && git pull origin master
+cd .. && cd ./costner_goes_postal && git pull origin master
+cd .. && cd ./foofoberry && git pull origin master
